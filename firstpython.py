@@ -1,3 +1,4 @@
+# Función con argumentos variables
 def calcular(factor, *valores, redondear=False, **kwargs):
     resultado = [v * factor for v in valores]
 
